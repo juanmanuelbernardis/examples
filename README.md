@@ -54,6 +54,9 @@ Repositorio de aprendizaje
 		* https://www.python.org/doc
 		* https://www.python.org/downloads
 		* https://pypi.org
+		* `virtualenv` https://virtualenv.pypa.io/en/latest
+		* `pip` https://pip.pypa.io/en/stable
+		* `pipenv` https://pipenv-es.readthedocs.io/es/latest
 	* `Ruby` https://es.wikipedia.org/wiki/Ruby
 	* `Rust` https://es.wikipedia.org/wiki/Rust_(lenguaje_de_programación)
 
@@ -63,3 +66,6 @@ Repositorio de aprendizaje
 	* https://www.mindviewllc.com
 	* https://www.mindviewllc.com/quicklinks/
 	* `Thinking in Java 4th Edition Creative Commons PDF eBook` https://archive.org/details/TIJ4CcR1
+	* `Thinking in Python` http://docs.linuxtone.org/ebooks/Python/Thinking_In_Python.pdf
+		* https://github.com/BruceEckel/ThinkingInPython
+
