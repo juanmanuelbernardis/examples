@@ -4,12 +4,15 @@ Repositorio de aprendizaje
 
 # SCM
 
-* https://github.com
-	* https://desktop.github.com
-	* https://atom.io
-	
-* https://git-scm.com
+* `GIT` https://git-scm.com
 	* https://git-scm.com/book/es/v2
+	* https://github.com
+		* https://desktop.github.com
+		* https://atom.io
+	* https://gitlab.com
+
+* `Mercurial` https://www.mercurial-scm.org
+
 
 ## Git (video)
 
@@ -22,7 +25,7 @@ Repositorio de aprendizaje
 ## IDEs
 
 * https://www.jetbrains.com
-	* https://www.jetbrains.com/clion/
+	* https://www.jetbrains.com/clion
 	* https://www.jetbrains.com/datagrip
 	* https://www.jetbrains.com/go
 	* https://www.jetbrains.com/pycharm
