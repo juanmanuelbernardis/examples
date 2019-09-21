@@ -10,7 +10,6 @@ Repositorio de aprendizaje
 		* https://desktop.github.com
 		* https://atom.io
 	* https://gitlab.com
-
 * `Mercurial` https://www.mercurial-scm.org
 
 
@@ -22,15 +21,15 @@ Repositorio de aprendizaje
 	* https://www.youtube.com/watch?v=HiXLkL42tMU
 	* https://www.youtube.com/watch?v=HVsySz-h9r4
 
-## IDEs
+## IDEs 
 
+* https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado
 * `jetBrains` https://www.jetbrains.com
 	* `C, C++` https://www.jetbrains.com/clion
 	* `SQL (oracle, mssql, mysql, etc)` https://www.jetbrains.com/datagrip
 	* `Go` https://www.jetbrains.com/go
 	* `Python` https://www.jetbrains.com/pycharm
 	* `JavaScript` https://www.jetbrains.com/webstorm
-
 * https://www.sublimetext.com
 	* `All` https://www.sublimetext.com/3
 
@@ -43,7 +42,8 @@ Repositorio de aprendizaje
 	* `C++` https://es.wikipedia.org/wiki/C%2B%2B
 	* `C#` https://es.wikipedia.org/wiki/C_Sharp
 	* `Erlang` https://es.wikipedia.org/wiki/Erlang
-	* `GO` https://es.wikipedia.org/wiki/Go_(lenguaje_de_programaci%C3%B3n)
+	* `Go` https://es.wikipedia.org/wiki/Go_(lenguaje_de_programaci%C3%B3n)
+		* https://golang.org/
 	* `Java` https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)
 	* `JavaScript` https://es.wikipedia.org/wiki/JavaScript
 	* `Perl` https://es.wikipedia.org/wiki/Perl
