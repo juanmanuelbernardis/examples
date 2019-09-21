@@ -84,3 +84,8 @@ Repositorio de aprendizaje
 	* `Thinking in Python` http://docs.linuxtone.org/ebooks/Python/Thinking_In_Python.pdf
 		* https://github.com/BruceEckel/ThinkingInPython
 
+
+## Cursos
+
+* `Python`
+	* https://pythonista.io/cursos/py101/
