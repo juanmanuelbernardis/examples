@@ -2,7 +2,7 @@
 
 Repositorio de aprendizaje
 
-# SCM
+## SCM
 
 * `GIT` https://git-scm.com
 	* https://git-scm.com/book/es/v2
@@ -18,14 +18,14 @@ Repositorio de aprendizaje
 
 ## IDEs 
 
-* https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado
+* `Wiki` https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado
 * `jetBrains` https://www.jetbrains.com
 	* `C, C++` https://www.jetbrains.com/clion
 	* `SQL (oracle, mssql, mysql, etc)` https://www.jetbrains.com/datagrip
 	* `Go` https://www.jetbrains.com/go
 	* `Python` https://www.jetbrains.com/pycharm
 	* `JavaScript` https://www.jetbrains.com/webstorm
-* https://www.sublimetext.com
+* `SublimeText` https://www.sublimetext.com
 	* `All` https://www.sublimetext.com/3
 
 ## Languages
