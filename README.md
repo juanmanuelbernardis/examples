@@ -7,5 +7,3 @@ Repositorio de aprendizaje
 * https://github.com
 * https://git-scm.com
 * https://www.python.org
-
----
