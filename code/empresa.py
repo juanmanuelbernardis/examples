@@ -15,5 +15,3 @@ if antiguedad >= 5:
     sueldo += 1000
 
 print(sueldo)
-
-PUTO EL QUE LEE
