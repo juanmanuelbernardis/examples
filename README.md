@@ -57,18 +57,18 @@ Repositorio de aprendizaje
 ## Linux
 
 * `Red Hat`
-	* `Fedora` https://getfedora.org/en/server/
-	* `CoreOS` https://getfedora.org/en/coreos/
-	* `CentOS` https://www.centos.org/download/
+	* `Fedora` https://getfedora.org/en/server
+	* `CoreOS` https://getfedora.org/en/coreos
+	* `CentOS` https://www.centos.org
 * `Ubuntu` https://ubuntu.com/download/server
 
 ## Docker
 
-* `Docker` https://www.docker.com/
-	* `for Windows` https://docs.docker.com/docker-for-windows/
-* `Hub` https://hub.docker.com/
-* `Docker Compose` https://docs.docker.com/compose/
-* `Registry` https://docs.docker.com/registry/
+* `Docker` https://www.docker.com
+	* `for Windows` https://docs.docker.com/docker-for-windows
+* `Hub` https://hub.docker.com
+* `Docker Compose` https://docs.docker.com/compose
+* `Registry` https://docs.docker.com/registry
 
 ## Virtual Machine
 
@@ -79,7 +79,7 @@ Repositorio de aprendizaje
 
 * `Bruce Eckel` https://es.wikipedia.org/wiki/Bruce_Eckel
 	* https://www.mindviewllc.com
-	* https://www.mindviewllc.com/quicklinks/
+	* https://www.mindviewllc.com/quicklinks
 	* `Thinking in Java 4th Edition Creative Commons PDF eBook` https://archive.org/details/TIJ4CcR1
 	* `Thinking in Python` http://docs.linuxtone.org/ebooks/Python/Thinking_In_Python.pdf
 		* https://github.com/BruceEckel/ThinkingInPython
@@ -88,4 +88,4 @@ Repositorio de aprendizaje
 ## Cursos
 
 * `Python`
-	* https://pythonista.io/cursos/py101/
+	* https://pythonista.io/cursos/py101

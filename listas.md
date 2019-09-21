@@ -26,7 +26,7 @@ F = m[1][1]
 M = m[3][0]
 P = m[3][3]
 ```
-## example
+## example 1
 
 ```python
 a = [
@@ -38,4 +38,24 @@ a = [
 
 print('F', a[1][1])
 print('M', a[3][0])
+```
+
+## example 2
+
+```python
+# variables
+data = {}
+line = ['Titulo', 1, 2]
+
+# lista completa
+data[line[0]] = line
+# >>> 'Titulo' = ['Titulo', 1, 2]
+
+# muestra de la lista
+data[line[0]] = line[1:]
+# >>> 'Titulo' = [2, 3]
+
+# ...
+print(data.keys())
+print(data.values())
 ```
