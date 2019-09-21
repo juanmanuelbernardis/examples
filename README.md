@@ -2,7 +2,7 @@
 
 Repositorio de aprendizaje
 
-# Links utiles
+# Links útiles
 
 * https://github.com
 * https://git-scm.com
