@@ -24,16 +24,15 @@ Repositorio de aprendizaje
 
 ## IDEs
 
-* https://www.jetbrains.com
-	* https://www.jetbrains.com/clion
-	* https://www.jetbrains.com/datagrip
-	* https://www.jetbrains.com/go
-	* https://www.jetbrains.com/pycharm
-	* https://www.jetbrains.com/webstorm
+* `jetBrains` https://www.jetbrains.com
+	* `C, C++` https://www.jetbrains.com/clion
+	* `SQL (oracle, mssql, mysql, etc)` https://www.jetbrains.com/datagrip
+	* `Go` https://www.jetbrains.com/go
+	* `Python` https://www.jetbrains.com/pycharm
+	* `JavaScript` https://www.jetbrains.com/webstorm
 
 * https://www.sublimetext.com
-	* https://www.sublimetext.com/3
-
+	* `All` https://www.sublimetext.com/3
 
 ## Languages
 
@@ -59,6 +58,27 @@ Repositorio de aprendizaje
 		* `pipenv` https://pipenv-es.readthedocs.io/es/latest
 	* `Ruby` https://es.wikipedia.org/wiki/Ruby
 	* `Rust` https://es.wikipedia.org/wiki/Rust_(lenguaje_de_programación)
+
+## Linux
+
+* `Red Hat`
+	* `Fedora` https://getfedora.org/en/server/
+	* `CoreOS` https://getfedora.org/en/coreos/
+	* `CentOS` https://www.centos.org/download/
+* `Ubuntu` https://ubuntu.com/download/server
+
+## Docker
+
+* `Docker` https://www.docker.com/
+	* `for Windows` https://docs.docker.com/docker-for-windows/
+* `Hub` https://hub.docker.com/
+* `Docker Compose` https://docs.docker.com/compose/
+* `Registry` https://docs.docker.com/registry/
+
+## Virtual Machine
+
+* `VirtualBox` https://www.virtualbox.org
+* `VM Ware Workstation Player` https://www.vmware.com/products/workstation-player.html
 
 ## Literatura
 
