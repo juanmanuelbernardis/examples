@@ -56,3 +56,10 @@ Repositorio de aprendizaje
 		* https://pypi.org
 	* `Ruby` https://es.wikipedia.org/wiki/Ruby
 	* `Rust` https://es.wikipedia.org/wiki/Rust_(lenguaje_de_programación)
+
+## Literatura
+
+* `Bruce Eckel` https://es.wikipedia.org/wiki/Bruce_Eckel
+	* https://www.mindviewllc.com
+	* https://www.mindviewllc.com/quicklinks/
+	* `Thinking in Java 4th Edition Creative Commons PDF eBook` https://archive.org/details/TIJ4CcR1
