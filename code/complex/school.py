@@ -28,9 +28,12 @@ for line in lines.decode().splitlines():
 def run():
 	trimester_value = catch_int('Por favor, ingrese el trimestre que '
 								'desea consultar', True)
-	average = round(get_average(trimester_value or 1), 2)
-	message = '\n > El promedio del trimestr "{}", es: {}\n'\
-			  .format(trimester_value, average)
+	try:
+		average = round(get_average(trimester_value or 1), 2)
+		message = '\n > El promedio del trimestr "{}", es: {}\n'\
+			      .format(trimester_value, average)
+	except:
+		message = '...'
 	print(message)
 
 
