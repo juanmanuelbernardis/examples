@@ -10,16 +10,11 @@ Repositorio de aprendizaje
 		* https://desktop.github.com
 		* https://atom.io
 	* https://gitlab.com
-* `Mercurial` https://www.mercurial-scm.org
-
-
-## Git (video)
-
-* https://www.youtube.com/results?search_query=git+tutorial
-	* https://www.youtube.com/watch?v=SWYqp7iY_Tc
-	* https://www.youtube.com/watch?v=WbwIoQYP6no
-	* https://www.youtube.com/watch?v=HiXLkL42tMU
-	* https://www.youtube.com/watch?v=HVsySz-h9r4
+	* `Videos` https://www.youtube.com/results?search_query=git+tutorial
+		* https://www.youtube.com/watch?v=SWYqp7iY_Tc
+		* https://www.youtube.com/watch?v=WbwIoQYP6no
+		* https://www.youtube.com/watch?v=HiXLkL42tMU
+		* https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ## IDEs 
 
@@ -44,6 +39,7 @@ Repositorio de aprendizaje
 	* `Erlang` https://es.wikipedia.org/wiki/Erlang
 	* `Go` https://es.wikipedia.org/wiki/Go_(lenguaje_de_programaci%C3%B3n)
 		* https://golang.org/
+		* https://golang.org/doc/
 	* `Java` https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)
 	* `JavaScript` https://es.wikipedia.org/wiki/JavaScript
 	* `Perl` https://es.wikipedia.org/wiki/Perl
@@ -51,7 +47,6 @@ Repositorio de aprendizaje
 	* `Python` https://es.wikipedia.org/wiki/Python
 		* https://www.python.org
 		* https://www.python.org/doc
-		* https://www.python.org/downloads
 		* https://pypi.org
 		* `virtualenv` https://virtualenv.pypa.io/en/latest
 		* `pip` https://pip.pypa.io/en/stable
