@@ -2,8 +2,6 @@ from pathlib import Path
 from utils import catch_int, float_helper
 
 data = {}
-header = None
-lines = Path('school_data.csv').read_bytes()
 
 
 def get_score(clazz, trimester):
@@ -17,23 +15,27 @@ def get_average(trimester):
 	return total / len(data.keys())
 
 
-for line in lines.decode().splitlines():
-	line_data = line.split(';')
-	if header is None:
-		header = line_data
-		continue
-	data[line_data[0]] = [float_helper(x) for x in line_data[1:]]
+def read_file():
+	header = None
+	lines = Path('school_data.csv').read_bytes()
+	for line in lines.decode().splitlines():
+		line_data = line.split(';')
+		if header is None:
+			header = line_data
+			continue
+		data[line_data[0]] = [float_helper(x) for x in line_data[1:]]
 
 
 def run():
 	trimester_value = catch_int('Por favor, ingrese el trimestre que '
 								'desea consultar', True)
 	try:
+		read_file()
 		average = round(get_average(trimester_value or 1), 2)
 		message = '\n > El promedio del trimestr "{}", es: {}\n'\
 			      .format(trimester_value, average)
-	except:
-		message = '...'
+	except Exception as e:
+		message = 'Se produjo un error no controlado: %s' % str(e)
 	print(message)
 
 
