@@ -65,6 +65,7 @@ Repositorio de aprendizaje
 		* `PostgreSQL` https://www.postgresql.org
 	* `NoSQL` https://es.wikipedia.org/wiki/NoSQL
 		* `MongoDB` https://www.mongodb.com/es
+		* `RethinkDB` https://rethinkdb.com/
 		* `Redis` https://redis.io
 	* `DataWarehouse` https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos
 	* `Lang`
@@ -100,6 +101,17 @@ Repositorio de aprendizaje
 * `Wiki` https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
 	* `VirtualBox` https://www.virtualbox.org
 	* `VM Ware Workstation Player` https://www.vmware.com/products/workstation-player.html
+
+## Frameworks
+
+* `Python` https://www.netsolutions.com/insights/top-10-python-frameworks-for-web-development-in-2019/
+	* `Django` https://www.djangoproject.com
+	* `Flask` https://palletsprojects.com/p/flask
+	* `Tornado` https://www.tornadoweb.org/en/stable
+	* `Click` https://palletsprojects.com/p/click
+	* `Requests` https://2.python-requests.org/en/master
+	* `SQLAlchemy` https://www.sqlalchemy.org/
+	* `IPython` http://ipython.org/
 
 ## Literatura
 
