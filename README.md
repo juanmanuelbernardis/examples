@@ -5,30 +5,30 @@ Repositorio de aprendizaje
 ## GIT
 
 * `Wiki` https://es.wikipedia.org/wiki/Git
-* `Git` https://git-scm.com
-	* https://git-scm.com/book/es/v2
-* `Platforms`
-	* https://github.com
-		* https://desktop.github.com
-		* https://atom.io
-	* https://gitlab.com
-* `Videos` https://www.youtube.com/results?search_query=git+tutorial
-	* https://www.youtube.com/watch?v=SWYqp7iY_Tc
-	* https://www.youtube.com/watch?v=WbwIoQYP6no
-	* https://www.youtube.com/watch?v=HiXLkL42tMU
-	* https://www.youtube.com/watch?v=HVsySz-h9r4
+	* `Git` https://git-scm.com
+		* https://git-scm.com/book/es/v2
+	* `Platforms`
+		* https://github.com
+			* https://desktop.github.com
+			* https://atom.io
+		* https://gitlab.com
+	* `Videos` https://www.youtube.com/results?search_query=git+tutorial
+		* https://www.youtube.com/watch?v=SWYqp7iY_Tc
+		* https://www.youtube.com/watch?v=WbwIoQYP6no
+		* https://www.youtube.com/watch?v=HiXLkL42tMU
+		* https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ## IDEs 
 
 * `Wiki` https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado
-* `jetBrains` https://www.jetbrains.com
-	* `C, C++` https://www.jetbrains.com/clion
-	* `SQL (oracle, mssql, mysql, etc)` https://www.jetbrains.com/datagrip
-	* `Go` https://www.jetbrains.com/go
-	* `Python` https://www.jetbrains.com/pycharm
-	* `JavaScript` https://www.jetbrains.com/webstorm
-* `SublimeText` https://www.sublimetext.com
-	* `All` https://www.sublimetext.com/3
+	* `jetBrains` https://www.jetbrains.com
+		* `C, C++` https://www.jetbrains.com/clion
+		* `SQL (oracle, mssql, mysql, etc)` https://www.jetbrains.com/datagrip
+		* `Go` https://www.jetbrains.com/go
+		* `Python` https://www.jetbrains.com/pycharm
+		* `JavaScript` https://www.jetbrains.com/webstorm
+	* `SublimeText` https://www.sublimetext.com
+		* `All` https://www.sublimetext.com/3
 
 ## Languages
 
@@ -62,43 +62,44 @@ Repositorio de aprendizaje
 
 * `Wiki`
 	* `DataBase` https://es.wikipedia.org/wiki/Base_de_datos
-	* `DataWarehouse` https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos
+		* `PostgreSQL` https://www.postgresql.org
 	* `NoSQL` https://es.wikipedia.org/wiki/NoSQL
-* `Lang`
-	* `SQL` https://es.wikipedia.org/wiki/SQL
-	* `PL/SQL` https://es.wikipedia.org/wiki/PL/SQL
-	* `DDL` https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos
-* `PostgreSQL` https://www.postgresql.org
-* `MongoDB` https://www.mongodb.com/es
-* `Redis` https://redis.io
+		* `MongoDB` https://www.mongodb.com/es
+		* `Redis` https://redis.io
+	* `DataWarehouse` https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos
+	* `Lang`
+		* `SQL` https://es.wikipedia.org/wiki/SQL
+		* `PL/SQL` https://es.wikipedia.org/wiki/PL/SQL
+		* `DDL` https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos
 
 ## Linux
 
-* `Red Hat`
-	* `Fedora` https://getfedora.org/en/server
-	* `CoreOS` https://getfedora.org/en/coreos
-	* `CentOS` https://www.centos.org
-* `Ubuntu` https://ubuntu.com/download/server
+* `Wiki` https://es.wikipedia.org/wiki/GNU/Linux
+	* `Red Hat`
+		* `Fedora` https://getfedora.org/en/server
+		* `CoreOS` https://getfedora.org/en/coreos
+		* `CentOS` https://www.centos.org
+	* `Ubuntu` https://ubuntu.com/download/server
 
 ## Docker
 
 * `Wiki` https://es.wikipedia.org/wiki/Docker_(software)
-* `Docker` https://www.docker.com
-	* `for Windows` https://docs.docker.com/docker-for-windows
-* `Hub` https://hub.docker.com
-* `Docker Compose` https://docs.docker.com/compose
-* `Registry` https://docs.docker.com/registry
+	* `Docker` https://www.docker.com
+		* `for Windows` https://docs.docker.com/docker-for-windows
+	* `Hub` https://hub.docker.com
+	* `Docker Compose` https://docs.docker.com/compose
+	* `Registry` https://docs.docker.com/registry
 
 ## Nginx
 
 * `Wiki` https://es.wikipedia.org/wiki/Nginx
-* `Nginx` https://www.nginx.com/
+	* `Nginx` https://www.nginx.com
 
 ## Virtual Machine
 
 * `Wiki` https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
-* `VirtualBox` https://www.virtualbox.org
-* `VM Ware Workstation Player` https://www.vmware.com/products/workstation-player.html
+	* `VirtualBox` https://www.virtualbox.org
+	* `VM Ware Workstation Player` https://www.vmware.com/products/workstation-player.html
 
 ## Literatura
 
@@ -119,5 +120,7 @@ Repositorio de aprendizaje
 		* https://www.codecademy.com/learn/learn-python-3
 * `Bash`
 	* http://es.tldp.org/COMO-INSFLUG/COMOs/Bash-Prog-Intro-COMO/Bash-Prog-Intro-COMO.html
-	* http://www.tldp.org/LDP/Bash-Beginners-Guide/html/
-	* http://www.tldp.org/LDP/abs/html/
+	* http://www.tldp.org/LDP/Bash-Beginners-Guide/html
+	* http://www.tldp.org/LDP/abs/html
+
+---
