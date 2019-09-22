@@ -2,19 +2,21 @@
 
 Repositorio de aprendizaje
 
-## SCM
+## GIT
 
-* `GIT` https://git-scm.com
+* `Wiki` https://es.wikipedia.org/wiki/Git
+* `Git` https://git-scm.com
 	* https://git-scm.com/book/es/v2
+* `Platforms`
 	* https://github.com
 		* https://desktop.github.com
 		* https://atom.io
 	* https://gitlab.com
-	* `Videos` https://www.youtube.com/results?search_query=git+tutorial
-		* https://www.youtube.com/watch?v=SWYqp7iY_Tc
-		* https://www.youtube.com/watch?v=WbwIoQYP6no
-		* https://www.youtube.com/watch?v=HiXLkL42tMU
-		* https://www.youtube.com/watch?v=HVsySz-h9r4
+* `Videos` https://www.youtube.com/results?search_query=git+tutorial
+	* https://www.youtube.com/watch?v=SWYqp7iY_Tc
+	* https://www.youtube.com/watch?v=WbwIoQYP6no
+	* https://www.youtube.com/watch?v=HiXLkL42tMU
+	* https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ## IDEs 
 
@@ -30,9 +32,11 @@ Repositorio de aprendizaje
 
 ## Languages
 
-* https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n
+* `Wiki` https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n
 	* `Assembly` https://es.wikipedia.org/wiki/Lenguaje_ensamblador
 	* `Bash` https://es.wikipedia.org/wiki/Bash
+		* https://www.gnu.org/software/bash
+		* https://ss64.com/bash/index.html
 	* `C` https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)
 	* `C++` https://es.wikipedia.org/wiki/C%2B%2B
 	* `C#` https://es.wikipedia.org/wiki/C_Sharp
@@ -54,6 +58,20 @@ Repositorio de aprendizaje
 	* `Ruby` https://es.wikipedia.org/wiki/Ruby
 	* `Rust` https://es.wikipedia.org/wiki/Rust_(lenguaje_de_programación)
 
+## Base de Datos
+
+* `Wiki`
+	* `DataBase` https://es.wikipedia.org/wiki/Base_de_datos
+	* `DataWarehouse` https://es.wikipedia.org/wiki/Almac%C3%A9n_de_datos
+	* `NoSQL` https://es.wikipedia.org/wiki/NoSQL
+* `Lang`
+	* `SQL` https://es.wikipedia.org/wiki/SQL
+	* `PL/SQL` https://es.wikipedia.org/wiki/PL/SQL
+	* `DDL` https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos
+* `PostgreSQL` https://www.postgresql.org
+* `MongoDB` https://www.mongodb.com/es
+* `Redis` https://redis.io
+
 ## Linux
 
 * `Red Hat`
@@ -64,14 +82,21 @@ Repositorio de aprendizaje
 
 ## Docker
 
+* `Wiki` https://es.wikipedia.org/wiki/Docker_(software)
 * `Docker` https://www.docker.com
 	* `for Windows` https://docs.docker.com/docker-for-windows
 * `Hub` https://hub.docker.com
 * `Docker Compose` https://docs.docker.com/compose
 * `Registry` https://docs.docker.com/registry
 
+## Nginx
+
+* `Wiki` https://es.wikipedia.org/wiki/Nginx
+* `Nginx` https://www.nginx.com/
+
 ## Virtual Machine
 
+* `Wiki` https://es.wikipedia.org/wiki/M%C3%A1quina_virtual
 * `VirtualBox` https://www.virtualbox.org
 * `VM Ware Workstation Player` https://www.vmware.com/products/workstation-player.html
 
@@ -84,8 +109,15 @@ Repositorio de aprendizaje
 	* `Thinking in Python` http://docs.linuxtone.org/ebooks/Python/Thinking_In_Python.pdf
 		* https://github.com/BruceEckel/ThinkingInPython
 
-
 ## Cursos
 
 * `Python`
 	* https://pythonista.io/cursos/py101
+	* `Codecademy`
+		* https://www.codecademy.com/catalog/language/python
+		* https://www.codecademy.com/learn/learn-python
+		* https://www.codecademy.com/learn/learn-python-3
+* `Bash`
+	* http://es.tldp.org/COMO-INSFLUG/COMOs/Bash-Prog-Intro-COMO/Bash-Prog-Intro-COMO.html
+	* http://www.tldp.org/LDP/Bash-Beginners-Guide/html/
+	* http://www.tldp.org/LDP/abs/html/
