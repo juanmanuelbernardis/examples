@@ -39,18 +39,34 @@ def read_file(filename=None):
 
 
 def run(args):
+	"""Función que inicia el programa."""
+	
+	# verificamos si existe el argumento `trimester`, de no existir solicitamos
+	# el ingreso del mismo. 
 	if not args.trimester:
 		trimester_value = catch_int('Por favor, ingrese el trimestre que '
 									'desea consultar', True)
 	else:
 		trimester_value = args.trimester
+	
 	try:
+		# leemos el archivo `school_data.csv` y lo cargamos dentro de la 
+		# variable `data`, la cual se comporta cómo un diccionario.
 		read_file(args.filename)
+
+		# calculamos el promedio.
 		average = round(get_average(trimester_value, args.verbose), 2)
+		
+		# definimos el mensaje de salida.
 		message = '\n > El promedio del trimestre "{}", es: {}\n'\
 			      .format(trimester_value, average)
+
 	except Exception as e:
+		# en caso de que se produzca un error, lo capturamos y definimos el 
+		# mensaje de salida.
 		message = 'Se produjo un error no controlado: %s' % str(e)
+	
+	# imprimimos el mensaje de salida.
 	print(message)
 
 
@@ -66,7 +82,8 @@ if __name__ == '__main__':
 	> python3 school.py -t 2 -f ../data.csv	
 	> python3 school.py -f ../data.csv	
 	"""
-	
+
+	# definimos la lista de argumentos que puede recibir el programa.
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-t', '--trimester', type=int, default=None,
 						help='Trimestre a calcular.')
@@ -74,6 +91,9 @@ if __name__ == '__main__':
 						help='Archivo a cargar.')
 	parser.add_argument('-v', '--verbose', action='store_true',
 						help='Muestra la lista de asignaturas.')
-
+	
+	# capturamos los argumentos.
 	args = parser.parse_args()
+
+	# iniciamos el programa.
 	run(args)
