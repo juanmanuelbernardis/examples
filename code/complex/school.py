@@ -4,28 +4,49 @@ import argparse
 from pathlib import Path
 from utils import catch_int, float_helper
 
+# diccionario em el cual persistiremos los datos cargados desde el archivo.
 data = {}
 
 
 def get_score(clazz, trimester):
+	"""Función que devuelve el valor de una asignatura, para un trimestre
+	   determinado."""
 	return data[clazz][trimester-1]
 
 
 def get_average(trimester, view=False):
+	"""Funcción que calcula el promedio de un trimestre determinado."""
+	
+	# total acumulado de notas.
 	total = 0
+	
+	# total de asignaturas.
 	total_clazz = len(data.keys())
+
+	# recorremos las asignatura.
 	for key in data.keys():
+		# calculamos el valor de la asignatura.
 		score = get_score(key, trimester)
+
+		# si el argumento `view` es `True`, imprimimos los datos de la 
+		# asignatura.
 		if view is True:
 			print(' - {}: {}'.format(key, score))
+
+		# sumamos el valor de la asignatura al acumulado.
 		total += score
+
+	# si el argumento `view` es `True`, imprimimos el valor acumulados de las
+	# asignaturas.
 	if view is True:
 		print(' Total: {} de {} materias.'.format(total, total_clazz))
+	
+	# calculamos el promedio y lo retornamos.
 	return total / total_clazz
 
 
 def read_file(filename=None):
-	"""Función que lee el archivos utilizado como base de datos."""
+	"""Función que lee el archivo utilizado como base de datos."""
 
 	# cabecera del archivo.
 	header = None
@@ -33,8 +54,8 @@ def read_file(filename=None):
 	# leemos el contenido del archivo en bytes.
 	lines = Path(filename or 'school_data.csv').read_bytes()
 
-	# recorremos las líneas del archivos, previa decodificación del mismo 
-	# (bytes --> string).
+	# recorremos las líneas del archivos, previa decodificación del mismo de
+	# bytes a string.
 	for line in lines.decode().splitlines():
 		# convertimos el string en una lista, usando el carcate `;` como 
 		# separador.
