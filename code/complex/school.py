@@ -1,3 +1,5 @@
+
+# dependencias
 import argparse
 from pathlib import Path
 from utils import catch_int, float_helper
@@ -22,19 +24,30 @@ def get_average(trimester, view=False):
 	return total / total_clazz
 
 
-def get_clazz(clazz):
-	value = data[clazz]
-	print(clazz, '=>', ', '.join([str(x) for x in value]))
-
-
 def read_file(filename=None):
+	"""Función que lee el archivos utilizado como base de datos."""
+
+	# cabecera del archivo.
 	header = None
+
+	# leemos el contenido del archivo en bytes.
 	lines = Path(filename or 'school_data.csv').read_bytes()
+
+	# recorremos las líneas del archivos, previa decodificación del mismo 
+	# (bytes --> string).
 	for line in lines.decode().splitlines():
+		# convertimos el string en una lista, usando el carcate `;` como 
+		# separador.
 		line_data = line.split(';')
+		
+		# si la variable `header` es igual a `None`, le asignamos el valor de
+		# la primer línea y continuamos.
 		if header is None:
 			header = line_data
 			continue
+
+		# agregamos al diccionario las asignaturas, donde la clave es el nombre
+		# de la asignatura y el valor una lista con las notas de cada trimestre.
 		data[line_data[0]] = [float_helper(x) for x in line_data[1:]]
 
 
