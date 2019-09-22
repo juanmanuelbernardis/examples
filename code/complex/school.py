@@ -27,9 +27,9 @@ def get_clazz(clazz):
 	print(clazz, '=>', ', '.join([str(x) for x in value]))
 
 
-def read_file():
+def read_file(filename=None):
 	header = None
-	lines = Path('school_data.csv').read_bytes()
+	lines = Path(filename or 'school_data.csv').read_bytes()
 	for line in lines.decode().splitlines():
 		line_data = line.split(';')
 		if header is None:
@@ -44,24 +44,36 @@ def run(args):
 									'desea consultar', True)
 	else:
 		trimester_value = args.trimester
-
 	try:
-		read_file()
+		read_file(args.filename)
 		average = round(get_average(trimester_value, args.verbose), 2)
 		message = '\n > El promedio del trimestre "{}", es: {}\n'\
 			      .format(trimester_value, average)
-
 	except Exception as e:
 		message = 'Se produjo un error no controlado: %s' % str(e)
-
 	print(message)
 
 
 if __name__ == '__main__':
+	"""
+	Algunas formas de ejecutar el programa:
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	> python3 school.py -h
+	> python3 school.py -v
+	> python3 school.py -v -t 1
+	> python3 school.py -v -t 1 -f ../data.csv
+	> python3 school.py -t 2 -f ../data.csv	
+	> python3 school.py -f ../data.csv	
+	"""
+	
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-t', '--trimester', type=int, default=None,
 						help='Trimestre a calcular.')
+	parser.add_argument('-f', '--filename', type=str, default=None,
+						help='Archivo a cargar.')
 	parser.add_argument('-v', '--verbose', action='store_true',
 						help='Muestra la lista de asignaturas.')
+
 	args = parser.parse_args()
 	run(args)
