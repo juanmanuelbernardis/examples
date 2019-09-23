@@ -99,7 +99,7 @@ def run(args):
 		average = round(get_average(trimester_value, args.verbose), 2)
 
 		# definimos el mensaje de salida.
-		message = '\n > El promedio del trimestre "{}", es: {}\n'\
+		message = '\n > El promedio del trimestre "{}", es: {} pts.\n'\
 			      .format(trimester_value, average)
 
 	except Exception as e:
