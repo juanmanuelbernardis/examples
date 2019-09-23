@@ -10,7 +10,7 @@ def catch_value(message=None, recursive=False, default=None, cast=None):
 		message.replace(': ', '[{}]: '.format(str(default)))
 	value = input(message).strip()
 	if default is not None and not value:
-		return value
+		return default
 	if cast is not None:
 		try:
 			value = cast(value)
