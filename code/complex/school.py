@@ -46,7 +46,7 @@ def get_average(trimester, view=False):
 	# asignaturas.
 	if view is True:
 		print(' --')
-		print(' Total: {} de {} materia(s).'.format(total, total_clazz))
+		print(' Total de {} puntos sobre {} materia(s).'.format(total, total_clazz))
 
 	# calculamos el promedio y lo retornamos.
 	return total / total_clazz
