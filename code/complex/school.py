@@ -9,13 +9,18 @@ data = {}
 
 
 def get_score(clazz, trimester):
-	"""Función que devuelve el valor de una asignatura, para un trimestre
+	"""Función que devuelve el valor de una asignatura para un trimestre
 	   determinado."""
 	return data[clazz][trimester-1]
 
 
 def get_average(trimester, view=False):
-	"""Funcción que calcula el promedio de un trimestre determinado."""
+	"""Funcción que cálcula el promedio de un trimestre determinado."""
+
+	def verbose(message):
+		"""Función que imprime en pantalla si el modo verbose está activo."""
+		if view is True:
+			print(message)
 
 	# total acumulado de notas.
 	total = 0
@@ -24,8 +29,7 @@ def get_average(trimester, view=False):
 	total_clazz = len(data.keys())
 
 	# si el argumento `view` es `True`, imprimimos el titulo de las asignaturas.
-	if view is True:
-		print('\nAsignaturas:')
+	verbose('\nAsignaturas:')
 
 	# recorremos las asignatura.
 	for key in data.keys():
@@ -34,19 +38,18 @@ def get_average(trimester, view=False):
 
 		# si el argumento `view` es `True`, imprimimos los datos de la
 		# asignatura.
-		if view is True:
-			name = ' - ' + key
-			name = '{} {}'.format(name, '.' * (40 - len(name)))
-			print('{} {}'.format(name, score))
+		name = ' - ' + key
+		name += name + '.' * (40 - len(name))
+		verbose('{} {}'.format(name, score))
 
 		# sumamos el valor de la asignatura al acumulado.
 		total += score
 
 	# si el argumento `view` es `True`, imprimimos el valor acumulados de las
 	# asignaturas.
-	if view is True:
-		print(' --')
-		print(' Total de {} puntos sobre {} materia(s).'.format(total, total_clazz))
+	verbose(' --')
+	verbose(' Total de {} puntos sobre {} materia(s).'
+			.format(total, total_clazz))
 
 	# calculamos el promedio y lo retornamos.
 	return total / total_clazz
@@ -107,7 +110,7 @@ def run(args):
 		# mensaje de salida.
 		message = 'Se produjo un error no controlado: %s' % str(e)
 
-	# imprimimos el mensaje de salida.
+	# imprimimos el mensaje de salida en pantalla.
 	print(message)
 
 
@@ -133,8 +136,5 @@ if __name__ == '__main__':
 	parser.add_argument('-v', '--verbose', action='store_true',
 						help='Muestra la lista de asignaturas.')
 
-	# capturamos los argumentos.
-	args = parser.parse_args()
-
-	# iniciamos el programa.
-	run(args)
+	# capturamos los argumentos e iniciamos el programa.
+	run(parser.parse_args())
