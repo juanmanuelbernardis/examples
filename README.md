@@ -2,6 +2,8 @@
 
 Repositorio de aprendizaje
 
+kivy  https://kivy.org/#home
+
 ## GIT
 
 * `Wiki` https://es.wikipedia.org/wiki/Git
@@ -72,6 +74,7 @@ Repositorio de aprendizaje
 		* `SQL` https://es.wikipedia.org/wiki/SQL
 		* `PL/SQL` https://es.wikipedia.org/wiki/PL/SQL
 		* `DDL` https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos
+	
 
 ## Linux
 
@@ -134,5 +137,5 @@ Repositorio de aprendizaje
 	* http://es.tldp.org/COMO-INSFLUG/COMOs/Bash-Prog-Intro-COMO/Bash-Prog-Intro-COMO.html
 	* http://www.tldp.org/LDP/Bash-Beginners-Guide/html
 	* http://www.tldp.org/LDP/abs/html
-
+  
 ---

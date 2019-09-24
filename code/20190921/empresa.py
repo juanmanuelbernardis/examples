@@ -5,6 +5,8 @@ def capturar_valor(mensaje=None):
         print('El valor es incorrecto')
         exit()
 
+
+
 horas = capturar_valor('Horas trabajadas: ')
 antiguedad = capturar_valor('Años en la empresa: ')
 cobroxhoras = capturar_valor('Cobro por hora: ')
