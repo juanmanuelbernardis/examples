@@ -149,9 +149,27 @@ Repositorio de aprendizaje
 * `Kivy`
 	* https://www.udemy.com/course/desktop-guis-with-python-and-kivy
 
+## Books
+
+* http://www.openbookproject.net/thinkcs/python/english2e/index.html
 
 ## LINKS
 
 * https://pythonprogramming.net
+* `ADT (abstract data type)` https://en.wikipedia.org/wiki/Abstract_data_type
+	* https://xlinux.nist.gov/dads/HTML/abstractDataType.html
+	* https://www.geeksforgeeks.org/abstract-data-types
+	* http://www.openbookproject.net/thinkcs/python/english2e/index.html
+		* http://www.openbookproject.net/thinkcs/python/english2e/ch18.html
+		* http://www.openbookproject.net/thinkcs/python/english2e/ch19.html
+		* http://www.openbookproject.net/thinkcs/python/english2e/ch20.html
+		* http://www.openbookproject.net/thinkcs/python/english2e/ch21.html
+	* http://www.cse.iitd.ernet.in/~pkalra/csl101/Python-ADT.pdf
+	* https://www.datacamp.com/community/tutorials/data-structures-python
+* `Design Patterns`
+	* https://github.com/faif/python-patterns
+	* https://refactoring.guru/design-patterns/python
+	* https://www.youtube.com/watch?v=bsyjSW46TDg
+	* https://python-patterns.guide/
 
 ---
