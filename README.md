@@ -117,6 +117,12 @@ Repositorio de aprendizaje
 ## GUI
 
 * `Kivy` https://kivy.org
+	* `Video`:
+		* https://www.youtube.com/results?search_query=kivy
+		* https://www.youtube.com/watch?v=5t1VXHICv-Q&list=PLMgDVIa0Pg8VP1XqOexsdYP1FralBJP1l
+		* https://www.youtube.com/channel/UCUd2LiAwrk_QqXc4KgLZu-Q/videos
+		* https://www.youtube.com/watch?v=IPV613aPt-0
+		* https://www.youtube.com/watch?v=FjwD0SOGQ1k&list=PLQVvvaa0QuDfwnDTZWw8H3hN_VRQfq8rF
 
 ## Literatura
 
@@ -141,6 +147,11 @@ Repositorio de aprendizaje
 	* http://www.tldp.org/LDP/abs/html
 
 * `Kivy`
-	* https://www.udemy.com/course/desktop-guis-with-python-and-kivy/
+	* https://www.udemy.com/course/desktop-guis-with-python-and-kivy
+
+
+## LINKS
+
+* https://pythonprogramming.net
 
 ---
