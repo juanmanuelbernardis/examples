@@ -2,8 +2,6 @@
 
 Repositorio de aprendizaje
 
-kivy  https://kivy.org/#home
-
 ## GIT
 
 * `Wiki` https://es.wikipedia.org/wiki/Git
@@ -20,7 +18,7 @@ kivy  https://kivy.org/#home
 		* https://www.youtube.com/watch?v=HiXLkL42tMU
 		* https://www.youtube.com/watch?v=HVsySz-h9r4
 
-## IDEs 
+## IDEs
 
 * `Wiki` https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado
 	* `jetBrains` https://www.jetbrains.com
@@ -74,7 +72,7 @@ kivy  https://kivy.org/#home
 		* `SQL` https://es.wikipedia.org/wiki/SQL
 		* `PL/SQL` https://es.wikipedia.org/wiki/PL/SQL
 		* `DDL` https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos
-	
+
 
 ## Linux
 
@@ -116,6 +114,10 @@ kivy  https://kivy.org/#home
 	* `SQLAlchemy` https://www.sqlalchemy.org/
 	* `IPython` http://ipython.org/
 
+## GUI
+
+* `Kivy` https://kivy.org
+
 ## Literatura
 
 * `Bruce Eckel` https://es.wikipedia.org/wiki/Bruce_Eckel
@@ -137,5 +139,8 @@ kivy  https://kivy.org/#home
 	* http://es.tldp.org/COMO-INSFLUG/COMOs/Bash-Prog-Intro-COMO/Bash-Prog-Intro-COMO.html
 	* http://www.tldp.org/LDP/Bash-Beginners-Guide/html
 	* http://www.tldp.org/LDP/abs/html
-  
+
+* `Kivy`
+	* https://www.udemy.com/course/desktop-guis-with-python-and-kivy/
+
 ---
