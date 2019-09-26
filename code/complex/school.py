@@ -38,9 +38,7 @@ def get_average(trimester, view=False):
 
 		# si el argumento `view` es `True`, imprimimos los datos de la
 		# asignatura.
-		name = ' - ' + key
-		name += name + '.' * (40 - len(name))
-		verbose('{} {}'.format(name, score))
+		verbose('- {} {} {}'.format(key, '.' * (40 - len(key)), score))
 
 		# sumamos el valor de la asignatura al acumulado.
 		total += score
