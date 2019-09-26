@@ -45,7 +45,7 @@ def get_average(trimester, view=False):
 
 	# si el argumento `view` es `True`, imprimimos el valor acumulados de las
 	# asignaturas.
-	verbose(' --')
+	verbose('--')
 	verbose(' Total de {} puntos sobre {} materia(s).'
 			.format(total, total_clazz))
 
