@@ -120,7 +120,6 @@ Repositorio de aprendizaje
 	* `pygames` https://www.pygame.org/news
 	* `pyglet` https://github.com/pyglet/pyglet
 	* `panda3d` https://www.panda3d.org
-	* 
 
 ## GUI
 
