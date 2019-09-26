@@ -114,6 +114,11 @@ Repositorio de aprendizaje
 	* `SQLAlchemy` https://www.sqlalchemy.org/
 	* `IPython` http://ipython.org/
 
+## Games
+
+* `Python` https://wiki.python.org/moin/PythonGames
+	* `pygames` https://www.pygame.org/news
+
 ## GUI
 
 * `Kivy` https://kivy.org
