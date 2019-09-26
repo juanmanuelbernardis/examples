@@ -85,11 +85,14 @@ def run(args):
 
 	# verificamos si existe el argumento `trimester`, de no existir solicitamos
 	# el ingreso del mismo.
-	if not args.trimester:
+	if args.trimester is None:
 		trimester_value = catch_int('Por favor, ingrese el trimestre que '
 									'desea consultar', True)
 	else:
 		trimester_value = args.trimester
+
+	# establecemos un limite sobre la cantidad de los trimestres.
+	trimester_value = max(min(trimester_value, 3), 1)
 
 	try:
 		# leemos el archivo `school_data.csv` y lo cargamos dentro de la
@@ -112,6 +115,7 @@ def run(args):
 	print(message)
 
 
+
 if __name__ == '__main__':
 	"""
 	Algunas formas de ejecutar el programa:
@@ -131,8 +135,28 @@ if __name__ == '__main__':
 						help='Trimestre a calcular.')
 	parser.add_argument('-f', '--filename', type=str, default=None,
 						help='Archivo a cargar.')
+	parser.add_argument('-a', '--all', action='store_true',
+						help='Muestra el promedio de todos los trimestres, '
+							 'anulando el modo `verbose`.')
 	parser.add_argument('-v', '--verbose', action='store_true',
 						help='Muestra la lista de asignaturas.')
 
-	# capturamos los argumentos e iniciamos el programa.
-	run(parser.parse_args())
+	# capturamos los argumentos.
+	args = parser.parse_args()
+
+	# verificamos el modo de impresión e iniciamos el programa.
+	if args.all is True:
+		# anulamos el modo `verbose`.
+		args.verbose = False
+
+		# mostramos todos los trimestres.
+		for t in range(1, 4):
+			# ingresamos el valor del trimeste
+			args.trimester = t
+
+			# mostramos el trimestre ingresado.
+			run(args)
+			
+	else:
+		# mostramos el trimestre ingresado.
+		run(args)
