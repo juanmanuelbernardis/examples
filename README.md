@@ -148,6 +148,9 @@ Repositorio de aprendizaje
 		* https://www.codecademy.com/catalog/language/python
 		* https://www.codecademy.com/learn/learn-python
 		* https://www.codecademy.com/learn/learn-python-3
+	* `PyAR`
+		* http://docs.python.org.ar/tutorial/index.html
+		* http://jjc.freeshell.org/easytut/easytut_es/easytut.html
 * `Bash`
 	* http://es.tldp.org/COMO-INSFLUG/COMOs/Bash-Prog-Intro-COMO/Bash-Prog-Intro-COMO.html
 	* http://www.tldp.org/LDP/Bash-Beginners-Guide/html
