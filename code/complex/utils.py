@@ -57,7 +57,7 @@ def except_hook(exception, value, traceback):
         print('ERROR <{}>:'.format(exception.__name__))
         print('  > {}'.format(value))
         data = (tb.tb_frame.f_code.co_filename, tb.tb_lineno)
-        print('  ! File {}, line {}'.format(*data))
+        print('  ! File "{}", line "{}".'.format(*data))
         print('--')
     else:
         print('')
