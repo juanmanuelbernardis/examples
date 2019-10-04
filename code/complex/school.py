@@ -133,34 +133,37 @@ if __name__ == '__main__':
 
     # definimos la lista de argumentos que puede recibir el programa.
     parser = argparse.ArgumentParser()
+    parser.add_argument('-D', '--debug', action='store_true', default=False,
+                        help='activa el modo `debug`.')
+    parser.add_argument('-v', '--verbose', action='store_true',
+                        help='Muestra la lista de asignaturas.')
     parser.add_argument('trimester', type=str, help='Trimestre a calcular.')
     parser.add_argument('-f', '--filename', type=str, default=None,
                         help='Archivo a cargar.')
-    parser.add_argument('-v', '--verbose', action='store_true',
-                        help='Muestra la lista de asignaturas.')
 
     # capturamos los argumentos.
-    args = parser.parse_args()
+    cl_args = parser.parse_args()
 
     # capturamos los errores no controlados y los imprimimos en pantalla.
-    sys.excepthook = except_hook
+    if cl_args.debug is False:
+        sys.excepthook = except_hook
 
     # verificamos el modo de impresión e iniciamos el programa.
-    if args.trimester == "all":
+    if cl_args.trimester == "all":
         # anulamos el modo `verbose`.
-        args.verbose = False
+        cl_args.verbose = False
 
         # mostramos todos los trimestres.
         for t in range(1, 4):
             # ingresamos el valor del trimeste
-            args.trimester = t
+            cl_args.trimester = t
 
             # mostramos el trimestre ingresado.
-            run(args)
+            run(cl_args)
             
     else:
         # convertimos el string a un integer
-        args.trimester = int(args.trimester)
+        cl_args.trimester = int(cl_args.trimester)
 
         # mostramos el trimestre ingresado.
-        run(args)
+        run(cl_args)
