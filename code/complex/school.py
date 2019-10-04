@@ -14,12 +14,12 @@ def get_score(clazz, trimester):
 	return data[clazz][trimester-1]
 
 
-def get_average(trimester, view=False):
+def get_average(trimester, verbose=False):
 	"""Funcción que cálcula el promedio de un trimestre determinado."""
 
-	def verbose(message):
+	def _verbose(message):
 		"""Función que imprime en pantalla si el modo verbose está activo."""
-		if view is True:
+		if verbose is True:
 			print(message)
 
 	# total acumulado de notas.
@@ -28,26 +28,27 @@ def get_average(trimester, view=False):
 	# total de asignaturas.
 	total_clazz = len(data.keys())
 
-	# si el argumento `view` es `True`, imprimimos el titulo de las asignaturas.
-	verbose('\nAsignaturas:')
+	# si el argumento `verbose` es `True`, imprimimos el titulo de las 
+	# asignaturas.
+	_verbose('\nAsignaturas:')
 
 	# recorremos las asignatura.
 	for key in data.keys():
 		# calculamos el valor de la asignatura.
 		score = get_score(key, trimester)
 
-		# si el argumento `view` es `True`, imprimimos los datos de la
+		# si el argumento `verbose` es `True`, imprimimos los datos de la
 		# asignatura.
-		verbose('- {} {} {}'.format(key, '.' * (40 - len(key)), score))
+		_verbose('- {} {} {}'.format(key, '.' * (32 - len(key)), score))
 
 		# sumamos el valor de la asignatura al acumulado.
 		total += score
 
-	# si el argumento `view` es `True`, imprimimos el valor acumulados de las
-	# asignaturas.
-	verbose('--')
-	verbose(' Total de {} puntos sobre {} materia(s).'
-			.format(total, total_clazz))
+	# si el argumento `verbose` es `True`, imprimimos el valor acumulados de 
+	# las asignaturas.
+	_verbose('--')
+	_verbose(' Total de {} puntos sobre {} materia(s).'
+		     .format(total, total_clazz))
 
 	# calculamos el promedio y lo retornamos.
 	return total / total_clazz
