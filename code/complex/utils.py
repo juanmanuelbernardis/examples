@@ -4,10 +4,12 @@ from functools import partial
 def catch_value(message=None, recursive=False, default=None, cast=None):
 	if not isinstance(message, str):
 		message = 'Por favor, ingrese un valor'
-	if not message.endswith(': '):
+	else:
+		message = message.strip()
+	if not message.endswith(':'):
 		message += ': '
 	if default is not None:
-		message.replace(': ', '[{}]: '.format(str(default)))
+		message =  '{} [{}]: '.format(message[:-2], str(default))
 	value = input(message).strip()
 	if default is not None and not value:
 		return default

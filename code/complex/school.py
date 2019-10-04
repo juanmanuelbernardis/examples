@@ -65,7 +65,7 @@ def read_file(filename=None):
 	# recorremos las líneas del archivos, previa decodificación del mismo de
 	# bytes a string.
 	for line in lines.decode().splitlines():
-		# convertimos el string en una lista, usando el carcate `;` como
+		# convertimos el string en una lista, usando el caracter `;` como
 		# separador.
 		line_data = line.split(';')
 
@@ -131,13 +131,10 @@ if __name__ == '__main__':
 
 	# definimos la lista de argumentos que puede recibir el programa.
 	parser = argparse.ArgumentParser()
-	parser.add_argument('-t', '--trimester', type=int, default=None,
+	parser.add_argument('trimester', type=str,
 						help='Trimestre a calcular.')
 	parser.add_argument('-f', '--filename', type=str, default=None,
 						help='Archivo a cargar.')
-	parser.add_argument('-a', '--all', action='store_true',
-						help='Muestra el promedio de todos los trimestres, '
-							 'anulando el modo `verbose`.')
 	parser.add_argument('-v', '--verbose', action='store_true',
 						help='Muestra la lista de asignaturas.')
 
@@ -145,7 +142,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 
 	# verificamos el modo de impresión e iniciamos el programa.
-	if args.all is True:
+	if args.trimester == "all":
 		# anulamos el modo `verbose`.
 		args.verbose = False
 
@@ -158,5 +155,8 @@ if __name__ == '__main__':
 			run(args)
 			
 	else:
+		# convertimos el string a un integer
+		args.trimester = int(args.trimester)
+
 		# mostramos el trimestre ingresado.
 		run(args)
