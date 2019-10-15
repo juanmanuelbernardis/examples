@@ -30,6 +30,11 @@ Repositorio de aprendizaje
 	* `SublimeText` https://www.sublimetext.com
 		* `All` https://www.sublimetext.com/3
 
+## IDE Tools
+
+* `Kite`: https://kite.com/download/
+	* Code Faster in Python with Intelligent Snippets. Kite is a plugin for your IDE that uses machine learning to give you useful code completions for Python. 
+
 ## Languages
 
 * `Wiki` https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n
@@ -181,5 +186,8 @@ Repositorio de aprendizaje
 	* https://refactoring.guru/design-patterns/python
 	* https://www.youtube.com/watch?v=bsyjSW46TDg
 	* https://python-patterns.guide/
+* http://www.dabeaz.com/generators-uk/
+* https://anandology.com/python-practice-book/index.html
+* https://alysivji.github.io/managing-resources-with-context-managers-pythonic.html
 
 ---
