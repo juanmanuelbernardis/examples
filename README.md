@@ -189,5 +189,6 @@ Repositorio de aprendizaje
 * http://www.dabeaz.com/generators-uk/
 * https://anandology.com/python-practice-book/index.html
 * https://alysivji.github.io/managing-resources-with-context-managers-pythonic.html
+* https://opensource.com/article/18/3/loop-better-deeper-look-iteration-python
 
 ---
