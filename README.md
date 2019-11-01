@@ -208,5 +208,6 @@ Repositorio de aprendizaje
 * https://www.youtube.com/user/ceebassmusic/videos
 * https://code-maven.com/python
 * https://github.com/CyberReboot/poseidon
+* https://www.youtube.com/watch?v=wf-BqAjZb8M
 
 ---
