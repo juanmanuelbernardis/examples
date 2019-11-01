@@ -176,6 +176,7 @@ Repositorio de aprendizaje
 	* https://click.palletsprojects.com/en/7.x/
 	* https://github.com/google/python-fire
 	* https://github.com/facebookincubator/python-nubia
+	* https://github.com/italorossi/ishell
 * Artículos:
 	* https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df
 	* https://opensource.com/article/17/5/4-practical-python-libraries
