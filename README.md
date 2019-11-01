@@ -192,4 +192,5 @@ Repositorio de aprendizaje
 * https://opensource.com/article/18/3/loop-better-deeper-look-iteration-python
 * https://www.datacamp.com/community/tags/python
 * https://www.pydanny.com/python-partials-are-fun.html
+* https://www.youtube.com/user/ceebassmusic/videos
 ---
