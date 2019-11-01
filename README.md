@@ -174,7 +174,9 @@ Repositorio de aprendizaje
 * https://github.com/prompt-toolkit
 * https://click.palletsprojects.com/en/7.x/
 * https://github.com/google/python-fire
-* https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df
+* Artículos:
+	* https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df
+	* https://opensource.com/article/17/5/4-practical-python-libraries
 
 ## LINKS
 
