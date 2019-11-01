@@ -209,5 +209,6 @@ Repositorio de aprendizaje
 * https://code-maven.com/python
 * https://github.com/CyberReboot/poseidon
 * https://www.youtube.com/watch?v=wf-BqAjZb8M
+* https://www.youtube.com/watch?v=MCs5OvhV9S4
 
 ---
