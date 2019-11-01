@@ -168,6 +168,11 @@ Repositorio de aprendizaje
 
 * http://www.openbookproject.net/thinkcs/python/english2e/index.html
 
+## CLT (utils)
+
+* http://docopt.org
+* https://github.com/prompt-toolkit
+
 ## LINKS
 
 * https://pythonprogramming.net
@@ -193,4 +198,5 @@ Repositorio de aprendizaje
 * https://www.datacamp.com/community/tags/python
 * https://www.pydanny.com/python-partials-are-fun.html
 * https://www.youtube.com/user/ceebassmusic/videos
+* https://code-maven.com/python
 ---
