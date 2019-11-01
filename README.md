@@ -168,11 +168,12 @@ Repositorio de aprendizaje
 
 * http://www.openbookproject.net/thinkcs/python/english2e/index.html
 
-## CLT (utils)
+## Command Line Interface
 
 * http://docopt.org
 * https://github.com/prompt-toolkit
 * https://click.palletsprojects.com/en/7.x/
+* https://github.com/google/python-fire
 
 ## LINKS
 
@@ -200,4 +201,5 @@ Repositorio de aprendizaje
 * https://www.pydanny.com/python-partials-are-fun.html
 * https://www.youtube.com/user/ceebassmusic/videos
 * https://code-maven.com/python
+
 ---
